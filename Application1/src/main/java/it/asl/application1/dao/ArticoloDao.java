@@ -54,5 +54,17 @@ public class ArticoloDao {
         }
     }
 
+    public void updateArticoli(Articolo articolo){
+        String prepereStatementInsertArticoli = "UPDATE eserciziocompleto.articolo (nome, descrizione, quantita) VALUES (?,?,?)";
+        try (java.sql.PreparedStatement pstmt = conn.prepareStatement(prepereStatementInsertArticoli)) {
+            pstmt.setString(1, articolo.getNome());
+            pstmt.setString(2, articolo.getDescrizione());
+            pstmt.setInt(3, articolo.getQuantita());
+            pstmt.executeUpdate();
+        } catch (Exception e) {
+            StackTraceElement[] stackTrace = e.getStackTrace();
+        }
+    }
+
 
 }

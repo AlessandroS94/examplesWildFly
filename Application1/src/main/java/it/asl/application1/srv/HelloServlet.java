@@ -32,13 +32,29 @@ public class HelloServlet extends HttpServlet {
             return;
         }
         request.setAttribute("articoli", articoli); // Attach object as an attribute
-        RequestDispatcher dispatcher = request.getRequestDispatcher("showAll.jsp");
+        RequestDispatcher dispatcher = request.getRequestDispatcher("articoli.jsp");
         try {
             dispatcher.forward(request, response);
         } catch (ServletException e) {
             e.printStackTrace();
-            throw new IOException("Forwarding to showAll.jsp failed", e);
+            throw new IOException("Forwarding to articoli.jsp failed", e);
         }
+    }
+
+    @SneakyThrows
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        Articolo articolo = new Articolo(request.getParameter("nome"),request.getParameter("descrizione"), Integer.parseInt(request.getParameter("quantita")));
+        ArticoloDao articoloDao = new ArticoloDao();
+        articoloDao.insertArticoli(articolo);
+        response.sendRedirect(request.getContextPath() + "/hello-servlet");
+    }
+
+    @SneakyThrows
+    public void doPut(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        Articolo articolo = new Articolo(request.getParameter("nome"),request.getParameter("descrizione"), Integer.parseInt(request.getParameter("quantita")));
+        ArticoloDao articoloDao = new ArticoloDao();
+        articoloDao.insertArticoli(articolo);
+        response.sendRedirect(request.getContextPath() + "/hello-servlet");
     }
 
     public void destroy() {

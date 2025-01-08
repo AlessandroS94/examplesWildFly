@@ -57,6 +57,26 @@
         </tbody>
     </table>
 </div>
+<div class="container mt-4">
+<div class="mt-5">
+    <h2>Aggiungi un Articolo</h2>
+    <form action="<%= request.getContextPath() %>/hello-servlet" method="post">
+        <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" name="nome" required>
+        </div>
+        <div class="mb-3">
+            <label for="descrizione" class="form-label">Descrizione</label>
+            <textarea class="form-control" id="descrizione" name="descrizione" rows="3" required></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="quantita" class="form-label">Quantità</label>
+            <input type="number" class="form-control" id="quantita" name="quantita" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Aggiungi</button>
+    </form>
+</div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

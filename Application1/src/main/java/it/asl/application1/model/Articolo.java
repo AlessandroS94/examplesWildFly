@@ -13,4 +13,9 @@ public class Articolo {
     private int quantita;
     private int codice;
 
+    public Articolo(String nome, String descrizione, int quantita) {
+        this.nome = nome;
+        this.descrizione = descrizione;
+        this.quantita = quantita;
+    }
 }
