@@ -52,8 +52,9 @@ public class HelloServlet extends HttpServlet {
     @SneakyThrows
     public void doPut(HttpServletRequest request, HttpServletResponse response) throws IOException {
         Articolo articolo = new Articolo(request.getParameter("nome"),request.getParameter("descrizione"), Integer.parseInt(request.getParameter("quantita")));
+        articolo.setCodice(Integer.parseInt(request.getParameter("codice")));
         ArticoloDao articoloDao = new ArticoloDao();
-        articoloDao.insertArticoli(articolo);
+        articoloDao.updateArticoli(articolo);
         response.sendRedirect(request.getContextPath() + "/hello-servlet");
     }
 
