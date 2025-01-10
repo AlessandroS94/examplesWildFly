@@ -25,6 +25,7 @@
             <th>Nome</th>
             <th>Descrizione</th>
             <th>Quantità</th>
+            <th>ACTION</th>
         </tr>
         </thead>
         <tbody>
@@ -35,14 +36,19 @@
                 for (Articolo articolo : articli) {
         %>
         <tr>
-            <td><%= articolo.getCodice() %>
+            <form action="<%= request.getContextPath() %>/hello-servlet" method="post">
+            <td><%= articolo.getCodice() %> <input value="<%= articolo.getCodice() %>" name="codice">
             </td>
-            <td><%= articolo.getNome() %>
+            <td><%= articolo.getNome() %> <input value="<%= articolo.getNome() %>" name="nome">
             </td>
-            <td><%= articolo.getDescrizione() %>
+            <td><%= articolo.getDescrizione() %> <input value="<%= articolo.getDescrizione() %>" name="descrizione">
             </td>
-            <td><%= articolo.getQuantita() %>
+            <td><%= articolo.getQuantita() %> <input value="<%= articolo.getQuantita() %>" name="quantita">
             </td>
+                <td>
+                    <input type="submit" value="submit">
+                </td>
+            </form>
         </tr>
         <%
             }

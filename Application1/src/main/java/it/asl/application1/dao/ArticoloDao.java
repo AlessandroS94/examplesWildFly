@@ -55,11 +55,12 @@ public class ArticoloDao {
     }
 
     public void updateArticoli(Articolo articolo){
-        String prepereStatementInsertArticoli = "UPDATE eserciziocompleto.articolo (nome, descrizione, quantita) VALUES (?,?,?)";
-        try (java.sql.PreparedStatement pstmt = conn.prepareStatement(prepereStatementInsertArticoli)) {
+        String prepereStatementUpdateArticoli = "UPDATE eserciziocompleto.articolo t SET t.nome = ?, t.descrizione = ?, t.quantita = ? WHERE t.codice = ?";
+        try (java.sql.PreparedStatement pstmt = conn.prepareStatement(prepereStatementUpdateArticoli)) {
             pstmt.setString(1, articolo.getNome());
             pstmt.setString(2, articolo.getDescrizione());
             pstmt.setInt(3, articolo.getQuantita());
+            pstmt.setInt(4, articolo.getCodice());
             pstmt.executeUpdate();
         } catch (Exception e) {
             StackTraceElement[] stackTrace = e.getStackTrace();
