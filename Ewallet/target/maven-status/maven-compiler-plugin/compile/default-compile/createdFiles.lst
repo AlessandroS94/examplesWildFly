@@ -1,0 +1,14 @@
+com\ewallet\ws\MovimentiRest.class
+com\ewallet\dao\ContoCorrenteDao.class
+com\ewallet\dao\impl\UsersDaoImpl.class
+com\ewallet\model\TipoMovimento.class
+com\ewallet\model\Movimenti.class
+com\ewallet\model\ContoCorrente.class
+com\ewallet\ws\UsersRest.class
+com\ewallet\dao\MovimentiDao.class
+com\ewallet\model\Users.class
+com\ewallet\dao\impl\ContoCorrenteDaoImpl.class
+com\ewallet\dao\UsersDao.class
+com\ewallet\dao\impl\MovimentiDaoImpl.class
+com\ewallet\ws\ContoCorrenteRest.class
+com\ewallet\util\JpaUtil.class
