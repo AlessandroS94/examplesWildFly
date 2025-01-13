@@ -510,8 +510,8 @@
         </outbound-socket-binding>
     </socket-binding-group>
     <deployments>
-        <deployment name="SOAP_JBOSS-1.0-SNAPSHOT" runtime-name="SOAP_JBOSS-1.0-SNAPSHOT.war" enabled="false">
-            <fs-exploded path="/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/SOAP_JBOSS/target/SOAP_JBOSS-1.0-SNAPSHOT"/>
+        <deployment name="JPA_JBOSS_SERVLET_EJB-1.0-SNAPSHOT" runtime-name="JPA_JBOSS_SERVLET_EJB-1.0-SNAPSHOT.war" enabled="false">
+            <fs-exploded path="/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/JPA_JBOSS_SERVLET_EJB/target/JPA_JBOSS_SERVLET_EJB-1.0-SNAPSHOT"/>
         </deployment>
     </deployments>
 </server>
