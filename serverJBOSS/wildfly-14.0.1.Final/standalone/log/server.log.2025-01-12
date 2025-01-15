@@ -1,0 +1,882 @@
+2025-01-12 21:37:24,485 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0022: Unregistered web context: '/SOAP_JBOSS-1.0-SNAPSHOT' from server 'default-server'
+2025-01-12 21:37:24,538 INFO  [org.jboss.as.webservices] (MSC service thread 1-7) WFLYWS0004: Stopping service jboss.ws.endpoint."SOAP_JBOSS-1.0-SNAPSHOT.war"."it.example.soap_jboss.HelloWorldWs"
+2025-01-12 21:37:24,563 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'SOAP_JBOSS-1.0-SNAPSHOT#default'
+2025-01-12 21:37:24,606 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 75) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'SOAP_JBOSS-1.0-SNAPSHOT#default'
+2025-01-12 21:37:24,946 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment SOAP_JBOSS-1.0-SNAPSHOT (runtime-name: SOAP_JBOSS-1.0-SNAPSHOT.war) in 524ms
+2025-01-12 21:37:25,030 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "SOAP_JBOSS-1.0-SNAPSHOT" (runtime-name: "SOAP_JBOSS-1.0-SNAPSHOT.war")
+2025-01-12 21:37:25,188 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+2025-01-12 21:37:25,210 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: EJB subsystem suspension complete
+2025-01-12 21:37:25,217 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2025-01-12 21:37:25,226 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-01-12 21:37:25,344 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0019: Host default-host stopping
+2025-01-12 21:37:25,346 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-01-12 21:37:25,355 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-01-12 21:37:25,387 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2025-01-12 21:37:25,422 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-01-12 21:37:25,601 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0008: Undertow HTTP listener default suspending
+2025-01-12 21:37:25,602 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2025-01-12 21:37:25,604 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0004: Undertow 2.0.13.Final stopping
+2025-01-12 21:37:25,630 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 75) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2025-01-12 21:37:25,664 INFO  [org.jboss.as] (MSC service thread 1-4) WFLYSRV0050: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) stopped in 432ms
+2025-01-12 22:06:44,162 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2025-01-12 22:06:44,634 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.3.Final
+2025-01-12 22:06:44,646 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2025-01-12 22:06:44,800 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) starting
+2025-01-12 22:06:44,801 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/ale/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/0n/smnzqpqj29s3y5z2r1nq6y780000gn/T/
+	java.library.path = /Users/ale/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_292-b10
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = AdoptOpenJDK
+	java.vendor.url = https://adoptopenjdk.net/
+	java.vendor.url.bug = https://github.com/AdoptOpenJDK/openjdk-support/issues
+	java.version = 1.8.0_292
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = AdoptOpenJDK
+	java.vm.version = 25.292-b10
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final
+	jboss.host.name = macbook-pro-di-alessandro
+	jboss.modules.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = macbook-pro-di-alessandro
+	jboss.qualified.host.name = macbook-pro-di-alessandro.fritz.box
+	jboss.server.base.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone
+	jboss.server.config.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/configuration
+	jboss.server.data.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/data
+	jboss.server.deploy.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/data/content
+	jboss.server.log.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/log
+	jboss.server.name = macbook-pro-di-alessandro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/configuration/logging.properties
+	module.path = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/modules
+	org.jboss.boot.log.file = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.16
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/jboss-modules.jar -mp /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final -Djboss.server.base.dir=/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = IT
+	user.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/bin
+	user.home = /Users/ale
+	user.language = it
+	user.name = ale
+	user.timezone = Europe/Rome
+2025-01-12 22:06:44,802 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/configuration/logging.properties 
+2025-01-12 22:06:45,599 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.6.0.Final
+2025-01-12 22:06:46,120 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2025-01-12 22:06:46,143 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 30) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2025-01-12 22:06:46,196 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2025-01-12 22:06:46,214 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.6.5.Final
+2025-01-12 22:06:46,222 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.6.5.Final
+2025-01-12 22:06:46,241 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 48) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-01-12 22:06:46,241 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 49) WFLYIO001: Worker 'default' has auto-configured to 24 core threads with 192 task threads based on your 12 available processors
+2025-01-12 22:06:46,247 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 57) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2025-01-12 22:06:46,248 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 68) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-01-12 22:06:46,250 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 60) WFLYNAM0001: Activating Naming Subsystem
+2025-01-12 22:06:46,252 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 59) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2025-01-12 22:06:46,256 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 55) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2025-01-12 22:06:46,257 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 58) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2025-01-12 22:06:46,259 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 66) WFLYSEC0002: Activating Security Subsystem
+2025-01-12 22:06:46,261 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-7) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-01-12 22:06:46,261 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 70) WFLYWS0002: Activating WebServices Extension
+2025-01-12 22:06:46,269 INFO  [org.jboss.as.security] (MSC service thread 1-6) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2025-01-12 22:06:46,270 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 50) WFLYRS0016: RESTEasy version 3.6.1.Final
+2025-01-12 22:06:46,275 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.11.Final)
+2025-01-12 22:06:46,298 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0003: Undertow 2.0.13.Final starting
+2025-01-12 22:06:46,308 INFO  [org.jboss.as.naming] (MSC service thread 1-1) WFLYNAM0003: Starting Naming Service
+2025-01-12 22:06:46,310 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 41) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2025-01-12 22:06:46,311 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-1) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-01-12 22:06:46,317 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-01-12 22:06:46,361 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.8.Final
+2025-01-12 22:06:46,380 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-01-12 22:06:46,440 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0014: Creating file handler for path '/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-01-12 22:06:46,446 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2025-01-12 22:06:46,446 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
+2025-01-12 22:06:46,454 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2025-01-12 22:06:46,560 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2025-01-12 22:06:46,635 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2025-01-12 22:06:46,664 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) WFLYEJB0493: EJB subsystem suspension complete
+2025-01-12 22:06:46,739 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-01-12 22:06:46,890 INFO  [org.jboss.as.patching] (MSC service thread 1-4) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2025-01-12 22:06:46,908 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-3) WFLYDM0111: Keystore /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2025-01-12 22:06:46,911 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/deployments
+2025-01-12 22:06:46,984 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2025-01-12 22:06:47,135 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.2.3.Final (Apache CXF 3.2.5.jbossorg-1) 
+2025-01-12 22:06:47,218 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-01-12 22:06:47,221 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2025-01-12 22:06:47,221 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2025-01-12 22:06:47,222 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) started in 4018ms - Started 306 of 527 services (321 services are lazy, passive or on-demand)
+2025-01-12 22:06:48,281 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "REST_JBOSS-1.0-SNAPSHOT" (runtime-name: "REST_JBOSS-1.0-SNAPSHOT.war")
+2025-01-12 22:06:50,437 INFO  [org.jboss.as.jpa] (MSC service thread 1-2) WFLYJPA0002: Read persistence.xml for MyPU
+2025-01-12 22:06:50,647 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment REST_JBOSS-1.0-SNAPSHOT.war
+2025-01-12 22:06:50,785 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-1) HV000001: Hibernate Validator 6.0.13.Final
+2025-01-12 22:06:51,073 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-2) ISPN000128: Infinispan version: Infinispan 'Estrella Galicia' 9.3.1.Final
+2025-01-12 22:06:51,086 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 22) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'REST_JBOSS-1.0-SNAPSHOT#MyPU'
+2025-01-12 22:06:51,117 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 22) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:06:51,200 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2025-01-12 22:06:51,229 INFO  [org.jboss.weld.Version] (MSC service thread 1-3) WELD-000900: 3.0.5 (Final)
+2025-01-12 22:06:51,250 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 22) HHH000412: Hibernate Core {5.3.6.Final}
+2025-01-12 22:06:51,253 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 22) HHH000206: hibernate.properties not found
+2025-01-12 22:06:51,320 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = REST_JBOSS-1.0-SNAPSHOT.war_com.mysql.cj.jdbc.Driver_8_0
+2025-01-12 22:06:51,359 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0002: Started client-mappings cache from ejb container
+2025-01-12 22:06:51,533 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 22) HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2025-01-12 22:06:51,683 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 22) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'REST_JBOSS-1.0-SNAPSHOT#MyPU'
+2025-01-12 22:06:51,911 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 22) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:06:51,993 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 22) Envers integration enabled? : true
+2025-01-12 22:06:52,661 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: 
+2025-01-12 22:06:52,661 INFO  [stdout] (ServerService Thread Pool -- 22)     
+2025-01-12 22:06:52,661 INFO  [stdout] (ServerService Thread Pool -- 22)     create table hibernate_sequence (
+2025-01-12 22:06:52,661 INFO  [stdout] (ServerService Thread Pool -- 22)        next_val bigint
+2025-01-12 22:06:52,661 INFO  [stdout] (ServerService Thread Pool -- 22)     ) engine=InnoDB
+2025-01-12 22:06:52,666 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: 
+2025-01-12 22:06:52,666 INFO  [stdout] (ServerService Thread Pool -- 22)     
+2025-01-12 22:06:52,667 INFO  [stdout] (ServerService Thread Pool -- 22)     insert into hibernate_sequence values ( 1 )
+2025-01-12 22:06:52,668 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: 
+2025-01-12 22:06:52,668 INFO  [stdout] (ServerService Thread Pool -- 22)     
+2025-01-12 22:06:52,668 INFO  [stdout] (ServerService Thread Pool -- 22)     create table instructor (
+2025-01-12 22:06:52,668 INFO  [stdout] (ServerService Thread Pool -- 22)        id integer not null,
+2025-01-12 22:06:52,668 INFO  [stdout] (ServerService Thread Pool -- 22)         primary key (id)
+2025-01-12 22:06:52,668 INFO  [stdout] (ServerService Thread Pool -- 22)     ) engine=InnoDB
+2025-01-12 22:06:52,672 INFO  [stdout] (ServerService Thread Pool -- 22) Hibernate: 
+2025-01-12 22:06:52,672 INFO  [stdout] (ServerService Thread Pool -- 22)     
+2025-01-12 22:06:52,672 INFO  [stdout] (ServerService Thread Pool -- 22)     create table users (
+2025-01-12 22:06:52,672 INFO  [stdout] (ServerService Thread Pool -- 22)        id integer not null,
+2025-01-12 22:06:52,672 INFO  [stdout] (ServerService Thread Pool -- 22)         country varchar(120),
+2025-01-12 22:06:52,672 INFO  [stdout] (ServerService Thread Pool -- 22)         email varchar(220) not null,
+2025-01-12 22:06:52,672 INFO  [stdout] (ServerService Thread Pool -- 22)         name varchar(120) not null,
+2025-01-12 22:06:52,672 INFO  [stdout] (ServerService Thread Pool -- 22)         primary key (id)
+2025-01-12 22:06:52,672 INFO  [stdout] (ServerService Thread Pool -- 22)     ) engine=InnoDB
+2025-01-12 22:06:53,225 WARN  [io.jaegertracing.internal.senders.SenderResolver] (ServerService Thread Pool -- 22) No suitable sender found. Using NoopSender, meaning that data will not be sent anywhere!
+2025-01-12 22:06:53,297 INFO  [io.jaegertracing.Configuration] (ServerService Thread Pool -- 22) Initialized tracer=JaegerTracer(version=Java-0.30.6, serviceName=REST_JBOSS-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=MacBook-Pro-di-Alessandro.fritz.box, jaeger.version=Java-0.30.6, ip=192.168.178.55}, zipkinSharedRpcSpan=false, expandExceptionLogs=false)
+2025-01-12 22:06:54,089 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 22) RESTEASY002225: Deploying javax.ws.rs.core.Application: class it.example.rest_jboss.HelloApplication
+2025-01-12 22:06:54,131 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 22) WFLYUT0021: Registered web context: '/REST_JBOSS-1.0-SNAPSHOT' for server 'default-server'
+2025-01-12 22:06:54,149 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "REST_JBOSS-1.0-SNAPSHOT" (runtime-name : "REST_JBOSS-1.0-SNAPSHOT.war")
+2025-01-12 22:18:22,162 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 22) WFLYUT0022: Unregistered web context: '/REST_JBOSS-1.0-SNAPSHOT' from server 'default-server'
+2025-01-12 22:18:22,159 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0019: Stopped Driver service with driver-name = REST_JBOSS-1.0-SNAPSHOT.war_com.mysql.cj.jdbc.Driver_8_0
+2025-01-12 22:18:22,207 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 77) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'REST_JBOSS-1.0-SNAPSHOT#MyPU'
+2025-01-12 22:18:22,217 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 77) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@5d77fcd8
+2025-01-12 22:18:22,222 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 77) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'REST_JBOSS-1.0-SNAPSHOT#MyPU'
+2025-01-12 22:18:22,343 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment REST_JBOSS-1.0-SNAPSHOT (runtime-name: REST_JBOSS-1.0-SNAPSHOT.war) in 193ms
+2025-01-12 22:18:22,374 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "REST_JBOSS-1.0-SNAPSHOT" (runtime-name: "REST_JBOSS-1.0-SNAPSHOT.war")
+2025-01-12 22:18:22,442 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+2025-01-12 22:18:22,447 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: EJB subsystem suspension complete
+2025-01-12 22:18:22,448 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2025-01-12 22:18:22,452 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-01-12 22:18:22,466 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2025-01-12 22:18:22,466 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-01-12 22:18:22,467 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-01-12 22:18:22,473 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2025-01-12 22:18:22,486 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-01-12 22:18:22,499 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0008: Undertow HTTP listener default suspending
+2025-01-12 22:18:22,500 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2025-01-12 22:18:22,504 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0004: Undertow 2.0.13.Final stopping
+2025-01-12 22:18:22,505 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 77) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2025-01-12 22:18:22,515 INFO  [org.jboss.as] (MSC service thread 1-3) WFLYSRV0050: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) stopped in 59ms
+2025-01-12 22:18:35,179 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.6.Final
+2025-01-12 22:18:36,548 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.3.Final
+2025-01-12 22:18:36,568 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2025-01-12 22:18:36,808 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) starting
+2025-01-12 22:18:36,809 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/ale/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/0n/smnzqpqj29s3y5z2r1nq6y780000gn/T/
+	java.library.path = /Users/ale/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_292-b10
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = AdoptOpenJDK
+	java.vendor.url = https://adoptopenjdk.net/
+	java.vendor.url.bug = https://github.com/AdoptOpenJDK/openjdk-support/issues
+	java.version = 1.8.0_292
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = AdoptOpenJDK
+	java.vm.version = 25.292-b10
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final
+	jboss.host.name = macbook-pro-di-alessandro
+	jboss.modules.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = macbook-pro-di-alessandro
+	jboss.qualified.host.name = macbook-pro-di-alessandro.fritz.box
+	jboss.server.base.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone
+	jboss.server.config.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/configuration
+	jboss.server.data.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/data
+	jboss.server.deploy.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/data/content
+	jboss.server.log.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/log
+	jboss.server.name = macbook-pro-di-alessandro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/configuration/logging.properties
+	module.path = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/modules
+	org.jboss.boot.log.file = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.16
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/jboss-modules.jar -mp /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final -Djboss.server.base.dir=/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = IT
+	user.dir = /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/bin
+	user.home = /Users/ale
+	user.language = it
+	user.name = ale
+	user.timezone = Europe/Rome
+2025-01-12 22:18:36,811 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/configuration/logging.properties 
+2025-01-12 22:18:37,940 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.6.0.Final
+2025-01-12 22:18:38,631 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2025-01-12 22:18:38,650 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 26) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2025-01-12 22:18:38,707 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2025-01-12 22:18:38,730 INFO  [org.xnio] (MSC service thread 1-6) XNIO version 3.6.5.Final
+2025-01-12 22:18:38,745 INFO  [org.xnio.nio] (MSC service thread 1-6) XNIO NIO Implementation Version 3.6.5.Final
+2025-01-12 22:18:38,779 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 48) WFLYCLINF0001: Activating Infinispan subsystem.
+2025-01-12 22:18:38,793 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 49) WFLYIO001: Worker 'default' has auto-configured to 24 core threads with 192 task threads based on your 12 available processors
+2025-01-12 22:18:38,795 INFO  [org.wildfly.extension.microprofile.opentracing] (ServerService Thread Pool -- 59) WFLYTRACEXT0001: Activating MicroProfile OpenTracing Subsystem
+2025-01-12 22:18:38,802 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 60) WFLYNAM0001: Activating Naming Subsystem
+2025-01-12 22:18:38,808 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 68) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2025-01-12 22:18:38,809 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 57) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2025-01-12 22:18:38,810 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 58) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2025-01-12 22:18:38,822 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 70) WFLYWS0002: Activating WebServices Extension
+2025-01-12 22:18:38,824 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 66) WFLYSEC0002: Activating Security Subsystem
+2025-01-12 22:18:38,837 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 55) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2025-01-12 22:18:38,838 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 50) WFLYRS0016: RESTEasy version 3.6.1.Final
+2025-01-12 22:18:38,839 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2025-01-12 22:18:38,840 INFO  [org.jboss.as.connector] (MSC service thread 1-8) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.11.Final)
+2025-01-12 22:18:38,858 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-01-12 22:18:38,879 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 41) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2025-01-12 22:18:38,884 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 2.0.13.Final starting
+2025-01-12 22:18:38,888 INFO  [org.jboss.as.naming] (MSC service thread 1-4) WFLYNAM0003: Starting Naming Service
+2025-01-12 22:18:38,892 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-5) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2025-01-12 22:18:38,900 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2025-01-12 22:18:38,949 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.8.Final
+2025-01-12 22:18:39,003 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-5) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-01-12 22:18:39,124 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0014: Creating file handler for path '/Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2025-01-12 22:18:39,138 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 48 (per class), which is derived from the number of CPUs on this host.
+2025-01-12 22:18:39,138 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 192 (per class), which is derived from thread worker pool sizing.
+2025-01-12 22:18:39,151 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: Started server default-server.
+2025-01-12 22:18:39,156 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0018: Host default-host starting
+2025-01-12 22:18:39,263 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2025-01-12 22:18:39,598 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0493: EJB subsystem suspension complete
+2025-01-12 22:18:39,772 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2025-01-12 22:18:40,179 INFO  [org.jboss.as.patching] (MSC service thread 1-2) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2025-01-12 22:18:40,218 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: Keystore /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2025-01-12 22:18:40,231 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-2) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/ale/Project JAVA/GIT_REPO/examplesWildFly/serverJBOSS/wildfly-14.0.1.Final/standalone/deployments
+2025-01-12 22:18:40,369 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2025-01-12 22:18:40,520 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022052: Starting JBossWS 5.2.3.Final (Apache CXF 3.2.5.jbossorg-1) 
+2025-01-12 22:18:40,605 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2025-01-12 22:18:40,609 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2025-01-12 22:18:40,609 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2025-01-12 22:18:40,610 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) started in 6238ms - Started 306 of 527 services (321 services are lazy, passive or on-demand)
+2025-01-12 22:18:41,485 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "REST_JBOSS-1.0-SNAPSHOT" (runtime-name: "REST_JBOSS-1.0-SNAPSHOT.war")
+2025-01-12 22:18:44,699 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for MyPU
+2025-01-12 22:18:44,956 INFO  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0003: Processing weld deployment REST_JBOSS-1.0-SNAPSHOT.war
+2025-01-12 22:18:45,146 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-7) HV000001: Hibernate Validator 6.0.13.Final
+2025-01-12 22:18:45,655 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-6) ISPN000128: Infinispan version: Infinispan 'Estrella Galicia' 9.3.1.Final
+2025-01-12 22:18:45,672 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 3) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'REST_JBOSS-1.0-SNAPSHOT#MyPU'
+2025-01-12 22:18:45,722 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 3) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:18:45,779 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.cj.jdbc.Driver (version 8.0)
+2025-01-12 22:18:45,816 INFO  [org.jboss.weld.Version] (MSC service thread 1-7) WELD-000900: 3.0.5 (Final)
+2025-01-12 22:18:45,894 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 3) HHH000412: Hibernate Core {5.3.6.Final}
+2025-01-12 22:18:45,898 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 3) HHH000206: hibernate.properties not found
+2025-01-12 22:18:45,928 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = REST_JBOSS-1.0-SNAPSHOT.war_com.mysql.cj.jdbc.Driver_8_0
+2025-01-12 22:18:46,002 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0002: Started client-mappings cache from ejb container
+2025-01-12 22:18:46,169 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 3) HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2025-01-12 22:18:46,368 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 3) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'REST_JBOSS-1.0-SNAPSHOT#MyPU'
+2025-01-12 22:18:46,671 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 3) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:18:46,752 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 3) Envers integration enabled? : true
+2025-01-12 22:18:47,509 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: 
+2025-01-12 22:18:47,509 INFO  [stdout] (ServerService Thread Pool -- 3)     
+2025-01-12 22:18:47,510 INFO  [stdout] (ServerService Thread Pool -- 3)     create table hibernate_sequence (
+2025-01-12 22:18:47,510 INFO  [stdout] (ServerService Thread Pool -- 3)        next_val bigint
+2025-01-12 22:18:47,510 INFO  [stdout] (ServerService Thread Pool -- 3)     ) engine=InnoDB
+2025-01-12 22:18:47,517 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: 
+2025-01-12 22:18:47,517 INFO  [stdout] (ServerService Thread Pool -- 3)     
+2025-01-12 22:18:47,517 INFO  [stdout] (ServerService Thread Pool -- 3)     insert into hibernate_sequence values ( 1 )
+2025-01-12 22:18:47,519 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: 
+2025-01-12 22:18:47,519 INFO  [stdout] (ServerService Thread Pool -- 3)     
+2025-01-12 22:18:47,519 INFO  [stdout] (ServerService Thread Pool -- 3)     create table instructor (
+2025-01-12 22:18:47,519 INFO  [stdout] (ServerService Thread Pool -- 3)        id integer not null,
+2025-01-12 22:18:47,519 INFO  [stdout] (ServerService Thread Pool -- 3)         primary key (id)
+2025-01-12 22:18:47,519 INFO  [stdout] (ServerService Thread Pool -- 3)     ) engine=InnoDB
+2025-01-12 22:18:47,525 INFO  [stdout] (ServerService Thread Pool -- 3) Hibernate: 
+2025-01-12 22:18:47,525 INFO  [stdout] (ServerService Thread Pool -- 3)     
+2025-01-12 22:18:47,526 INFO  [stdout] (ServerService Thread Pool -- 3)     create table users (
+2025-01-12 22:18:47,526 INFO  [stdout] (ServerService Thread Pool -- 3)        id integer not null,
+2025-01-12 22:18:47,526 INFO  [stdout] (ServerService Thread Pool -- 3)         country varchar(120),
+2025-01-12 22:18:47,526 INFO  [stdout] (ServerService Thread Pool -- 3)         email varchar(220) not null,
+2025-01-12 22:18:47,526 INFO  [stdout] (ServerService Thread Pool -- 3)         name varchar(120) not null,
+2025-01-12 22:18:47,526 INFO  [stdout] (ServerService Thread Pool -- 3)         primary key (id)
+2025-01-12 22:18:47,526 INFO  [stdout] (ServerService Thread Pool -- 3)     ) engine=InnoDB
+2025-01-12 22:18:48,164 WARN  [io.jaegertracing.internal.senders.SenderResolver] (ServerService Thread Pool -- 10) No suitable sender found. Using NoopSender, meaning that data will not be sent anywhere!
+2025-01-12 22:18:48,235 INFO  [io.jaegertracing.Configuration] (ServerService Thread Pool -- 10) Initialized tracer=JaegerTracer(version=Java-0.30.6, serviceName=REST_JBOSS-1.0-SNAPSHOT.war, reporter=RemoteReporter(sender=NoopSender(), closeEnqueueTimeout=1000), sampler=RemoteControlledSampler(maxOperations=2000, manager=HttpSamplingManager(hostPort=localhost:5778), sampler=ProbabilisticSampler(tags={sampler.type=probabilistic, sampler.param=0.001})), tags={hostname=MacBook-Pro-di-Alessandro.fritz.box, jaeger.version=Java-0.30.6, ip=192.168.178.55}, zipkinSharedRpcSpan=false, expandExceptionLogs=false)
+2025-01-12 22:18:49,319 INFO  [org.jboss.resteasy.resteasy_jaxrs.i18n] (ServerService Thread Pool -- 10) RESTEASY002225: Deploying javax.ws.rs.core.Application: class it.example.rest_jboss.HelloApplication
+2025-01-12 22:18:49,400 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 10) WFLYUT0021: Registered web context: '/REST_JBOSS-1.0-SNAPSHOT' for server 'default-server'
+2025-01-12 22:18:49,435 INFO  [org.jboss.as.server] (management-handler-thread - 1) WFLYSRV0010: Deployed "REST_JBOSS-1.0-SNAPSHOT" (runtime-name : "REST_JBOSS-1.0-SNAPSHOT.war")
+2025-01-12 22:19:07,052 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:19:07,064 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-01-12 22:19:07,064 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2025-01-12 22:19:07,065 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {provider_disables_autocommit=true, user=root}
+2025-01-12 22:19:07,065 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2025-01-12 22:19:07,067 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (default task-1) HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-01-12 22:19:08,034 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:19:08,188 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2025-01-12 22:19:08,197 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2025-01-12 22:19:08,215 INFO  [org.hibernate.orm.connections.access] (default task-1) HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@626fd9bd] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-01-12 22:19:08,469 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:19:08,475 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-01-12 22:19:08,475 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2025-01-12 22:19:08,475 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {provider_disables_autocommit=true, user=root}
+2025-01-12 22:19:08,475 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2025-01-12 22:19:08,475 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (default task-1) HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-01-12 22:19:08,521 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:19:08,531 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2025-01-12 22:19:08,537 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2025-01-12 22:19:08,557 INFO  [org.hibernate.orm.connections.access] (default task-1) HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@107bd478] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-01-12 22:19:08,637 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2025-01-12 22:19:08,803 INFO  [stdout] (default task-1) Hibernate: 
+2025-01-12 22:19:08,803 INFO  [stdout] (default task-1)     select
+2025-01-12 22:19:08,803 INFO  [stdout] (default task-1)         user0_.id as id1_1_,
+2025-01-12 22:19:08,803 INFO  [stdout] (default task-1)         user0_.country as country2_1_,
+2025-01-12 22:19:08,803 INFO  [stdout] (default task-1)         user0_.email as email3_1_,
+2025-01-12 22:19:08,803 INFO  [stdout] (default task-1)         user0_.name as name4_1_ 
+2025-01-12 22:19:08,804 INFO  [stdout] (default task-1)     from
+2025-01-12 22:19:08,804 INFO  [stdout] (default task-1)         users user0_
+2025-01-12 22:29:16,503 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:29:16,515 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-01-12 22:29:16,515 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2025-01-12 22:29:16,516 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {provider_disables_autocommit=true, user=root}
+2025-01-12 22:29:16,516 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2025-01-12 22:29:16,516 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (default task-1) HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-01-12 22:29:16,558 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:29:16,568 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2025-01-12 22:29:16,577 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2025-01-12 22:29:16,597 INFO  [org.hibernate.orm.connections.access] (default task-1) HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@460c89e4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-01-12 22:29:16,616 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2025-01-12 22:29:16,619 INFO  [stdout] (default task-1) Hibernate: 
+2025-01-12 22:29:16,619 INFO  [stdout] (default task-1)     select
+2025-01-12 22:29:16,619 INFO  [stdout] (default task-1)         user0_.id as id1_1_,
+2025-01-12 22:29:16,619 INFO  [stdout] (default task-1)         user0_.country as country2_1_,
+2025-01-12 22:29:16,619 INFO  [stdout] (default task-1)         user0_.email as email3_1_,
+2025-01-12 22:29:16,619 INFO  [stdout] (default task-1)         user0_.name as name4_1_ 
+2025-01-12 22:29:16,620 INFO  [stdout] (default task-1)     from
+2025-01-12 22:29:16,620 INFO  [stdout] (default task-1)         users user0_
+2025-01-12 22:30:10,039 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:30:10,045 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-01-12 22:30:10,045 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2025-01-12 22:30:10,046 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {provider_disables_autocommit=true, user=root}
+2025-01-12 22:30:10,046 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2025-01-12 22:30:10,046 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (default task-1) HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-01-12 22:30:10,077 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:30:10,083 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2025-01-12 22:30:10,088 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2025-01-12 22:30:10,101 INFO  [org.hibernate.orm.connections.access] (default task-1) HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@b1ccf12] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-01-12 22:30:10,125 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /REST_JBOSS-1.0-SNAPSHOT/api/users: org.jboss.resteasy.spi.UnhandledException: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: it.example.rest_jboss.model.User
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:78)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:222)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:197)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:459)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:233)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:139)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:358)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:142)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:219)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:227)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: it.example.rest_jboss.model.User
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:154)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:807)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:785)
+	at it.example.rest_jboss.DAO.UsersDAO.insertUser(UsersDAO.java:17)
+	at it.example.rest_jboss.HelloResource.postUser(HelloResource.java:45)
+	at it.example.rest_jboss.HelloResource$Proxy$_$$_WeldClientProxy.postUser(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:140)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:509)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:399)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$0(ResourceMethodInvoker.java:363)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:358)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:365)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:337)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:310)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:443)
+	... 56 more
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: it.example.rest_jboss.model.User
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:127)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:62)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:800)
+	... 73 more
+
+2025-01-12 22:30:59,709 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:30:59,716 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-01-12 22:30:59,716 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2025-01-12 22:30:59,717 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {provider_disables_autocommit=true, user=root}
+2025-01-12 22:30:59,717 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2025-01-12 22:30:59,717 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (default task-1) HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-01-12 22:30:59,744 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:30:59,750 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2025-01-12 22:30:59,755 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2025-01-12 22:30:59,767 INFO  [org.hibernate.orm.connections.access] (default task-1) HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1197365a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-01-12 22:30:59,785 ERROR [io.undertow.request] (default task-1) UT005023: Exception handling request to /REST_JBOSS-1.0-SNAPSHOT/api/users: org.jboss.resteasy.spi.UnhandledException: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: it.example.rest_jboss.model.User
+	at org.jboss.resteasy.core.ExceptionHandler.handleApplicationException(ExceptionHandler.java:78)
+	at org.jboss.resteasy.core.ExceptionHandler.handleException(ExceptionHandler.java:222)
+	at org.jboss.resteasy.core.SynchronousDispatcher.writeException(SynchronousDispatcher.java:197)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:459)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:233)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:139)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:358)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:142)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:219)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:227)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: javax.persistence.PersistenceException: org.hibernate.PersistentObjectException: detached entity passed to persist: it.example.rest_jboss.model.User
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:154)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:181)
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:188)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:807)
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:785)
+	at it.example.rest_jboss.DAO.UsersDAO.insertUser(UsersDAO.java:17)
+	at it.example.rest_jboss.HelloResource.postUser(HelloResource.java:45)
+	at it.example.rest_jboss.HelloResource$Proxy$_$$_WeldClientProxy.postUser(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.jboss.resteasy.core.MethodInjectorImpl.invoke(MethodInjectorImpl.java:140)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.internalInvokeOnTarget(ResourceMethodInvoker.java:509)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTargetAfterFilter(ResourceMethodInvoker.java:399)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.lambda$invokeOnTarget$0(ResourceMethodInvoker.java:363)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:358)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invokeOnTarget(ResourceMethodInvoker.java:365)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:337)
+	at org.jboss.resteasy.core.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:310)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:443)
+	... 56 more
+Caused by: org.hibernate.PersistentObjectException: detached entity passed to persist: it.example.rest_jboss.model.User
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:127)
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:62)
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:800)
+	... 73 more
+
+2025-01-12 22:31:16,753 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:31:16,759 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-01-12 22:31:16,760 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2025-01-12 22:31:16,760 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {provider_disables_autocommit=true, user=root}
+2025-01-12 22:31:16,760 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2025-01-12 22:31:16,760 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (default task-1) HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-01-12 22:31:16,791 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:31:16,797 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2025-01-12 22:31:16,803 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2025-01-12 22:31:16,818 INFO  [org.hibernate.orm.connections.access] (default task-1) HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1bbad790] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-01-12 22:31:16,844 INFO  [stdout] (default task-1) Hibernate: 
+2025-01-12 22:31:16,845 INFO  [stdout] (default task-1)     select
+2025-01-12 22:31:16,845 INFO  [stdout] (default task-1)         next_val as id_val 
+2025-01-12 22:31:16,845 INFO  [stdout] (default task-1)     from
+2025-01-12 22:31:16,845 INFO  [stdout] (default task-1)         hibernate_sequence for update
+2025-01-12 22:31:16,845 INFO  [stdout] (default task-1)             
+2025-01-12 22:31:16,868 INFO  [stdout] (default task-1) Hibernate: 
+2025-01-12 22:31:16,868 INFO  [stdout] (default task-1)     update
+2025-01-12 22:31:16,868 INFO  [stdout] (default task-1)         hibernate_sequence 
+2025-01-12 22:31:16,868 INFO  [stdout] (default task-1)     set
+2025-01-12 22:31:16,868 INFO  [stdout] (default task-1)         next_val= ? 
+2025-01-12 22:31:16,868 INFO  [stdout] (default task-1)     where
+2025-01-12 22:31:16,868 INFO  [stdout] (default task-1)         next_val=?
+2025-01-12 22:31:16,974 INFO  [stdout] (default task-1) Hibernate: 
+2025-01-12 22:31:16,974 INFO  [stdout] (default task-1)     insert 
+2025-01-12 22:31:16,974 INFO  [stdout] (default task-1)     into
+2025-01-12 22:31:16,974 INFO  [stdout] (default task-1)         users
+2025-01-12 22:31:16,975 INFO  [stdout] (default task-1)         (country, email, name, id) 
+2025-01-12 22:31:16,975 INFO  [stdout] (default task-1)     values
+2025-01-12 22:31:16,975 INFO  [stdout] (default task-1)         (?, ?, ?, ?)
+2025-01-12 22:31:26,113 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:31:26,118 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-01-12 22:31:26,118 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2025-01-12 22:31:26,119 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {provider_disables_autocommit=true, user=root}
+2025-01-12 22:31:26,119 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2025-01-12 22:31:26,119 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (default task-1) HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-01-12 22:31:26,149 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:31:26,155 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2025-01-12 22:31:26,162 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2025-01-12 22:31:26,178 INFO  [org.hibernate.orm.connections.access] (default task-1) HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2ee9304f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-01-12 22:31:26,193 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2025-01-12 22:31:26,195 INFO  [stdout] (default task-1) Hibernate: 
+2025-01-12 22:31:26,195 INFO  [stdout] (default task-1)     select
+2025-01-12 22:31:26,196 INFO  [stdout] (default task-1)         user0_.id as id1_1_,
+2025-01-12 22:31:26,196 INFO  [stdout] (default task-1)         user0_.country as country2_1_,
+2025-01-12 22:31:26,196 INFO  [stdout] (default task-1)         user0_.email as email3_1_,
+2025-01-12 22:31:26,196 INFO  [stdout] (default task-1)         user0_.name as name4_1_ 
+2025-01-12 22:31:26,196 INFO  [stdout] (default task-1)     from
+2025-01-12 22:31:26,196 INFO  [stdout] (default task-1)         users user0_
+2025-01-12 22:32:18,646 ERROR [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002010: Failed to execute: javax.ws.rs.NotAllowedException: RESTEASY003650: No resource method found for PUT, return 405 with Allow header
+	at org.jboss.resteasy.core.registry.SegmentNode.match(SegmentNode.java:488)
+	at org.jboss.resteasy.core.registry.SegmentNode.match(SegmentNode.java:174)
+	at org.jboss.resteasy.core.registry.RootNode.match(RootNode.java:43)
+	at org.jboss.resteasy.core.registry.RootClassNode.match(RootClassNode.java:48)
+	at org.jboss.resteasy.core.ResourceMethodRegistry.getResourceInvoker(ResourceMethodRegistry.java:442)
+	at org.jboss.resteasy.core.SynchronousDispatcher.getInvoker(SynchronousDispatcher.java:304)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$invoke$4(SynchronousDispatcher.java:225)
+	at org.jboss.resteasy.core.SynchronousDispatcher.lambda$preprocess$0(SynchronousDispatcher.java:139)
+	at org.jboss.resteasy.core.interception.PreMatchContainerRequestContext.filter(PreMatchContainerRequestContext.java:358)
+	at org.jboss.resteasy.core.SynchronousDispatcher.preprocess(SynchronousDispatcher.java:142)
+	at org.jboss.resteasy.core.SynchronousDispatcher.invoke(SynchronousDispatcher.java:219)
+	at org.jboss.resteasy.plugins.server.servlet.ServletContainerDispatcher.service(ServletContainerDispatcher.java:227)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:56)
+	at org.jboss.resteasy.plugins.server.servlet.HttpServletDispatcher.service(HttpServletDispatcher.java:51)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:791)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at io.opentracing.contrib.jaxrs2.server.SpanFinishingFilter.doFilter(SpanFinishingFilter.java:55)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1502)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+
+2025-01-12 22:32:31,493 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:32:31,503 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-01-12 22:32:31,503 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2025-01-12 22:32:31,503 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {provider_disables_autocommit=true, user=root}
+2025-01-12 22:32:31,503 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2025-01-12 22:32:31,503 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (default task-1) HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-01-12 22:32:31,540 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:32:31,546 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2025-01-12 22:32:31,551 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2025-01-12 22:32:31,565 INFO  [org.hibernate.orm.connections.access] (default task-1) HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1ef5a8c0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-01-12 22:32:31,583 INFO  [stdout] (default task-1) Hibernate: 
+2025-01-12 22:32:31,583 INFO  [stdout] (default task-1)     select
+2025-01-12 22:32:31,583 INFO  [stdout] (default task-1)         user0_.id as id1_1_0_,
+2025-01-12 22:32:31,584 INFO  [stdout] (default task-1)         user0_.country as country2_1_0_,
+2025-01-12 22:32:31,584 INFO  [stdout] (default task-1)         user0_.email as email3_1_0_,
+2025-01-12 22:32:31,584 INFO  [stdout] (default task-1)         user0_.name as name4_1_0_ 
+2025-01-12 22:32:31,584 INFO  [stdout] (default task-1)     from
+2025-01-12 22:32:31,584 INFO  [stdout] (default task-1)         users user0_ 
+2025-01-12 22:32:31,584 INFO  [stdout] (default task-1)     where
+2025-01-12 22:32:31,584 INFO  [stdout] (default task-1)         user0_.id=?
+2025-01-12 22:32:31,596 INFO  [stdout] (default task-1) Hibernate: 
+2025-01-12 22:32:31,596 INFO  [stdout] (default task-1)     delete 
+2025-01-12 22:32:31,597 INFO  [stdout] (default task-1)     from
+2025-01-12 22:32:31,597 INFO  [stdout] (default task-1)         users 
+2025-01-12 22:32:31,597 INFO  [stdout] (default task-1)     where
+2025-01-12 22:32:31,597 INFO  [stdout] (default task-1)         id=?
+2025-01-12 22:32:36,606 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:32:36,611 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-01-12 22:32:36,611 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2025-01-12 22:32:36,612 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {provider_disables_autocommit=true, user=root}
+2025-01-12 22:32:36,612 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2025-01-12 22:32:36,612 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (default task-1) HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-01-12 22:32:36,640 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:32:36,643 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2025-01-12 22:32:36,648 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2025-01-12 22:32:36,660 INFO  [org.hibernate.orm.connections.access] (default task-1) HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2bb5ed23] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-01-12 22:32:36,687 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (default task-1) HHH000397: Using ASTQueryTranslatorFactory
+2025-01-12 22:32:36,689 INFO  [stdout] (default task-1) Hibernate: 
+2025-01-12 22:32:36,689 INFO  [stdout] (default task-1)     select
+2025-01-12 22:32:36,689 INFO  [stdout] (default task-1)         user0_.id as id1_1_,
+2025-01-12 22:32:36,689 INFO  [stdout] (default task-1)         user0_.country as country2_1_,
+2025-01-12 22:32:36,689 INFO  [stdout] (default task-1)         user0_.email as email3_1_,
+2025-01-12 22:32:36,689 INFO  [stdout] (default task-1)         user0_.name as name4_1_ 
+2025-01-12 22:32:36,690 INFO  [stdout] (default task-1)     from
+2025-01-12 22:32:36,690 INFO  [stdout] (default task-1)         users user0_
+2025-01-12 22:33:24,755 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:33:24,759 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-01-12 22:33:24,760 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2025-01-12 22:33:24,760 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {provider_disables_autocommit=true, user=root}
+2025-01-12 22:33:24,760 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2025-01-12 22:33:24,760 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (default task-1) HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-01-12 22:33:24,788 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:33:24,791 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2025-01-12 22:33:24,795 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2025-01-12 22:33:24,804 INFO  [org.hibernate.orm.connections.access] (default task-1) HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6b3c474b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-01-12 22:33:24,818 INFO  [stdout] (default task-1) Hibernate: 
+2025-01-12 22:33:24,818 INFO  [stdout] (default task-1)     select
+2025-01-12 22:33:24,818 INFO  [stdout] (default task-1)         user0_.id as id1_1_0_,
+2025-01-12 22:33:24,819 INFO  [stdout] (default task-1)         user0_.country as country2_1_0_,
+2025-01-12 22:33:24,819 INFO  [stdout] (default task-1)         user0_.email as email3_1_0_,
+2025-01-12 22:33:24,819 INFO  [stdout] (default task-1)         user0_.name as name4_1_0_ 
+2025-01-12 22:33:24,819 INFO  [stdout] (default task-1)     from
+2025-01-12 22:33:24,819 INFO  [stdout] (default task-1)         users user0_ 
+2025-01-12 22:33:24,819 INFO  [stdout] (default task-1)     where
+2025-01-12 22:33:24,819 INFO  [stdout] (default task-1)         user0_.id=?
+2025-01-12 22:33:30,501 INFO  [org.hibernate.jpa.internal.util.LogHelper] (default task-1) HHH000204: Processing PersistenceUnitInfo [
+	name: MyPU
+	...]
+2025-01-12 22:33:30,505 WARN  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2025-01-12 22:33:30,505 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/demo]
+2025-01-12 22:33:30,505 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001001: Connection properties: {provider_disables_autocommit=true, user=root}
+2025-01-12 22:33:30,505 INFO  [org.hibernate.orm.connections.pooling] (default task-1) HHH10001003: Autocommit mode: false
+2025-01-12 22:33:30,505 INFO  [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] (default task-1) HHH000115: Hibernate connection pool size: 20 (min=1)
+2025-01-12 22:33:30,534 INFO  [org.hibernate.dialect.Dialect] (default task-1) HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2025-01-12 22:33:30,538 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (default task-1) Envers integration enabled? : true
+2025-01-12 22:33:30,541 INFO  [org.hibernate.orm.beans] (default task-1) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2025-01-12 22:33:30,552 INFO  [org.hibernate.orm.connections.access] (default task-1) HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@782cd333] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2025-01-12 22:33:30,567 INFO  [stdout] (default task-1) Hibernate: 
+2025-01-12 22:33:30,567 INFO  [stdout] (default task-1)     select
+2025-01-12 22:33:30,567 INFO  [stdout] (default task-1)         user0_.id as id1_1_0_,
+2025-01-12 22:33:30,567 INFO  [stdout] (default task-1)         user0_.country as country2_1_0_,
+2025-01-12 22:33:30,567 INFO  [stdout] (default task-1)         user0_.email as email3_1_0_,
+2025-01-12 22:33:30,567 INFO  [stdout] (default task-1)         user0_.name as name4_1_0_ 
+2025-01-12 22:33:30,567 INFO  [stdout] (default task-1)     from
+2025-01-12 22:33:30,567 INFO  [stdout] (default task-1)         users user0_ 
+2025-01-12 22:33:30,567 INFO  [stdout] (default task-1)     where
+2025-01-12 22:33:30,567 INFO  [stdout] (default task-1)         user0_.id=?
+2025-01-12 22:34:53,335 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = REST_JBOSS-1.0-SNAPSHOT.war_com.mysql.cj.jdbc.Driver_8_0
+2025-01-12 22:34:53,342 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 75) WFLYUT0022: Unregistered web context: '/REST_JBOSS-1.0-SNAPSHOT' from server 'default-server'
+2025-01-12 22:34:53,374 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 76) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'REST_JBOSS-1.0-SNAPSHOT#MyPU'
+2025-01-12 22:34:53,376 INFO  [org.hibernate.orm.beans] (ServerService Thread Pool -- 76) HHH10005004: Stopping BeanContainer : org.hibernate.resource.beans.container.internal.CdiBeanContainerExtendedAccessImpl@1fa05bf5
+2025-01-12 22:34:53,381 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 76) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'REST_JBOSS-1.0-SNAPSHOT#MyPU'
+2025-01-12 22:34:53,458 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0028: Stopped deployment REST_JBOSS-1.0-SNAPSHOT (runtime-name: REST_JBOSS-1.0-SNAPSHOT.war) in 130ms
+2025-01-12 22:34:53,506 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0009: Undeployed "REST_JBOSS-1.0-SNAPSHOT" (runtime-name: "REST_JBOSS-1.0-SNAPSHOT.war")
+2025-01-12 22:34:53,579 INFO  [org.jboss.as.server] (management-handler-thread - 2) WFLYSRV0236: Suspending server with no timeout.
+2025-01-12 22:34:53,585 INFO  [org.jboss.as.ejb3] (management-handler-thread - 2) WFLYEJB0493: EJB subsystem suspension complete
+2025-01-12 22:34:53,586 INFO  [org.jboss.as.server] (Management Triggered Shutdown) WFLYSRV0241: Shutting down in response to management operation 'shutdown'
+2025-01-12 22:34:53,591 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2025-01-12 22:34:53,606 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0019: Host default-host stopping
+2025-01-12 22:34:53,612 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTPS listener https suspending
+2025-01-12 22:34:53,612 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0002: Unbound mail session [java:jboss/mail/Default]
+2025-01-12 22:34:53,620 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2025-01-12 22:34:53,633 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2025-01-12 22:34:53,648 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTP listener default suspending
+2025-01-12 22:34:53,649 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2025-01-12 22:34:53,651 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0004: Undertow 2.0.13.Final stopping
+2025-01-12 22:34:53,657 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 10) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2025-01-12 22:34:53,663 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: WildFly Full 14.0.1.Final (WildFly Core 6.0.2.Final) stopped in 60ms
